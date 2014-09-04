@@ -1,6 +1,15 @@
-$body-bg: 	#e74c3c;
-$navbar-default-bg: #c0392b;
-$navbar-default-link-color: white;
-$brand-primary: #e67e22;
-$jumbotron-bg: #ecf0f1;
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+$body-bg: 						#e74c3c;
+$font-family-sans-serif:		'Oswald';
+$navbar-default-bg: 			#e67e22;
+$navbar-default-brand-color:	black;
+$brand-primary: 				#e67e22;
+$btn-primary-color:				black;
+$jumbotron-bg: 					#ecf0f1;
+
 @import 'bootstrap';
+
+.center {
+     text-align: center;
+}
